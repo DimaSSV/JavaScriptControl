@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a503d90-5e8d-4e54-ab71-7b482a066619">
+  <name>пс_Скрипты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Скрипты</value>
+  </synonym>
+  <comment>(JS)</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.пс_РазделСкрипты</picture>
+  </picture>
+  <content>DataProcessor.пс_Тестирование</content>
+  <content>CommonPicture.пс_РазделСкрипты</content>
+  <content>c9569b78-f0e5-49bb-ae23-3b660a3fbf5c</content>
+  <content>a2147d30-8543-40ba-b2e2-a854c3d7df0e</content>
+</mdclass:Subsystem>

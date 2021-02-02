@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f51442b8-c757-47de-9897-87bce0d073a7">
+  <name>пс_ПодключаемыеСкрипты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подключаемые скрипты</value>
+  </synonym>
+  <comment>(JS)</comment>
+  <templateType>TextDocument</templateType>
+</mdclass:CommonTemplate>

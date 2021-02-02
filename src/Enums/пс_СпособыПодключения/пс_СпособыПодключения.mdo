@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da0239fa-a829-4e98-8691-1b1739ea0462">
+  <producedTypes>
+    <refType typeId="f525e816-eef0-46f4-8046-a49b143e76d6" valueTypeId="8acb93c6-297b-4490-b98a-ffa4ea9b47be"/>
+    <listType typeId="9710f11e-8e2e-4b56-b1ed-ca322607492d" valueTypeId="6eeac81b-e81a-4c90-a49a-bfc2b1896d86"/>
+    <managerType typeId="755b9c60-ce4a-4f94-966c-c1a6cbc80cd5" valueTypeId="38eaae78-74d8-48a5-af6b-bb4605356d25"/>
+  </producedTypes>
+  <name>пс_СпособыПодключения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы подключенияФайлов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8e25358a-9179-4d04-a55e-aa8f3df8dc1e">
+    <name>Скрипт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скрипт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f805841c-1b30-4c23-9163-370f048f3ea7">
+    <name>Стиль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стиль</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

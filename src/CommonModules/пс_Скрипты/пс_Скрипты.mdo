@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9a38fabc-f2b0-42a0-908a-ae5521da711b">
+  <name>пс_Скрипты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Скрипты</value>
+  </synonym>
+  <comment>(JS)</comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

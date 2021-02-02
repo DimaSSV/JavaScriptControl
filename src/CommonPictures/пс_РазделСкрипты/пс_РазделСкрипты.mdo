@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f66f612-eb87-47ed-adec-80750ba023d2">
+  <name>пс_РазделСкрипты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Скрипты</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+  <availabilityForAppearance>true</availabilityForAppearance>
+</mdclass:CommonPicture>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4c66720e-2279-4514-89ac-a721ab3a07ab">
+  <name>JS</name>
+  <synonym>
+    <key>ru</key>
+    <value>JS</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <managedApplicationModule>Extended</managedApplicationModule>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="53bc0804-96d3-4929-8a47-87035c91d4eb"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="6d2c4684-6c75-4408-860e-65bae6771d10"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="41de13c9-2afe-4b4c-b85d-823aad261f2a"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="3a98d530-2a6c-4324-8412-6e9bf598fcc6"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="126feeb7-9768-4aa4-9caf-02d35054fd5b"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="de9d8f43-a3a4-4f4f-8dc4-bca8df77a434"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="5bc6973f-0557-4844-8e99-26cbec161da2"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>пс_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.13</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>OrdinaryApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <compatibilityMode>8.3.18</compatibilityMode>
+  <languages uuid="72780691-baf7-4305-b6a4-7fd5bc5f2765" extendedConfigurationObject="6a860c52-2425-431a-b195-45677d33b526">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.пс_Скрипты</subsystems>
+  <commonPictures>CommonPicture.пс_РазделСкрипты</commonPictures>
+  <commonTemplates>CommonTemplate.пс_ПодключаемыеСкрипты</commonTemplates>
+  <commonModules>CommonModule.пс_СкриптыСерверПовтИсп</commonModules>
+  <commonModules>CommonModule.пс_Скрипты</commonModules>
+  <commonModules>CommonModule.пс_СкриптыВызовСервера</commonModules>
+  <commonModules>CommonModule.пс_СкриптыКлиент</commonModules>
+  <enums>Enum.пс_СпособыПодключения</enums>
+  <dataProcessors>DataProcessor.пс_Тестирование</dataProcessors>
+</mdclass:Configuration>

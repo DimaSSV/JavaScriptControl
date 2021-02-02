@@ -1,0 +1,262 @@
+'use strict';
+
+
+// переопределение подписок на события
+(() => {
+    EventTarget.prototype.eventListenerList = {};
+    EventTarget.prototype._addEventListener = EventTarget.prototype.addEventListener;
+
+    EventTarget.prototype.addEventListener = function (type, listener, useCapture) {
+        var target;
+        if (!this) {
+            target = self;
+        } else {
+            target = this;
+        };
+        target._addEventListener(type, listener, useCapture);
+        if (!EventTarget.prototype.eventListenerList[target])
+            EventTarget.prototype.eventListenerList[target] = {};
+
+        if (!EventTarget.prototype.eventListenerList[target][type])
+            EventTarget.prototype.eventListenerList[target][type] = [];
+
+        EventTarget.prototype.eventListenerList[target][type].push({
+            func: listener,
+            remove: function () {
+                target.removeEventListener(type, this.func, useCapture);
+            }
+        });
+    };
+
+    EventTarget.prototype._removeEventListener = EventTarget.prototype.removeEventListener;
+    EventTarget.prototype.removeEventListener = function (type, listener, useCapture) {
+        var target;
+        if (!this) {
+            target = self;
+        } else {
+            target = this;
+        };
+        if (!EventTarget.prototype.eventListenerList[target])
+            EventTarget.prototype.eventListenerList[target] = {};
+
+        if (!EventTarget.prototype.eventListenerList[target][type])
+            EventTarget.prototype.eventListenerList[target][type] = [];
+        target._removeEventListener(type, listener, useCapture);
+        target.eventListenerList[target][type].splice(target.eventListenerList[target][type].indexOf(listener), 1);
+    };
+})();
+
+// класс для управления событиями
+self.eventManager = {
+    addEventListener: function (target, type, listener, useCapture) {
+        try {
+            return resultSuccess(target.addEventListener(type, listener, useCapture));
+        } catch (error) {
+            return resultError(error);
+        }
+    },
+    getEventListeners: function (target) {
+        if (!target) {
+            target = self;
+        }
+        if (!target.eventListenerList[target]) {
+            target.eventListenerList[target] = {}
+        }
+        try {
+            return resultSuccess(target.eventListenerList[target]);
+        } catch (error) {
+            return resultError(error);
+        }
+    }
+}
+
+// класс для управления обработчиками ожидания
+self.timerManager = {
+    timers : [],
+    intervals : [],
+    addTimer(callback, timeout, ...args) {
+        try {
+            var timer, that = this;
+            timer = setTimeout(function () {
+                that.removeTimer(timer);
+                callback(...args);
+            }, timeout);
+            this.timers.push({
+                id: timer,
+                func: callback,
+                timeout: timeout,
+                remove: function () {
+                    that.removeTimer(timer)
+                }
+            });
+            return resultSuccess(timer);
+        } catch (error) {
+            return resultError(error)
+        }
+
+    },
+    addInterval(callback, timeout, ...args) {
+        try {
+            var interval, that = this;
+            interval = setInterval(function () {
+                callback(...args);
+            }, timeout);
+            this.intervals.push({
+                id: interval,
+                func: callback,
+                timeout: timeout,
+                remove: function () {
+                    that.removeInterval(interval)
+                }
+            });
+            return resultSuccess(interval);
+        } catch (error) {
+            return resultError(error)
+        }
+    },
+    removeTimer(timer) {
+        clearTimeout(timer);
+        this.timers.splice(this.timers.indexOf(this.timers.find(el => el.id === timer)), 1);
+    },
+    removeInterval(interval) {
+        clearInterval(interval);
+        this.intervals.splice(this.intervals.indexOf(this.intervals.find(el => el.id === interval)), 1);
+    },
+    getTimers() {
+        return this.timers;
+    },
+    getIntervals() {
+        return this.intervals;
+    }
+}
+
+
+
+function Eval(paramToEval) {
+    try {
+        return resultSuccess(eval(paramToEval))
+    } catch (error) {
+        error.description = error.toString()
+        return resultError(error)
+    }
+}
+
+function giveName(name, object) {
+    try {
+        self[name] = object
+        return resultSuccess(object)
+    } catch (error) {
+        error.description = error.toString()
+        return resultError(error)
+    }
+}
+
+function newObject() {
+    return {}
+}
+
+function sendEvent(eventName, eventParams) {
+    let newEvent = new MouseEvent('click')
+    newEvent.eventData1C = { event: eventName, params: eventParams }
+    return dispatchEvent(newEvent)
+}
+
+function log1C(message, eventName, level = 'info') {
+    return sendEvent('eventLog', { message: message, eventName: eventName, level: level })
+}
+
+function error1C(errorMessage) {
+    return sendEvent('trowError', errorMessage)
+}
+
+function message1C(message) {
+    return sendEvent('showMessage', message)
+}
+
+function Dir(object) {
+    try {
+        stuff = [];
+        for (const s in object) {
+            stuff.push(s);
+        }
+        stuff.sort();
+        return resultSuccess(stuff);
+    } catch (error) {
+        error.description = error.toString()
+        return resultError(error)
+    }
+
+}
+
+function objToString(obj) {
+    try {
+        return resultSuccess(obj.toString())
+    } catch (error) {
+        error.description = error.toString()
+        return resultError(error)
+    }
+}
+
+function getContext(obj = null) {
+
+    if (obj === null) {
+        obj = self
+    }
+    let response = [];
+    try {
+        for (const key in obj) {
+            if (key != 'webkitStorageInfo') {
+                try {
+                    response.push({ name: key, type: typeof obj[key], value: obj[key].toString() })
+                } catch (error) {
+                    //throw error		
+                }
+            }
+        }
+        return resultSuccess(JSON.stringify(response))
+    } catch (error) {
+        error.description = error.toString()
+        return resultError(error)
+    }
+}
+
+function methodCall(object = null, methodName, ...params) {
+    if (object === null) {
+        object = self
+    }
+    try {
+        return resultSuccess(object[methodName](...params))
+    } catch (error) {
+        error.description = error.toString()
+        return resultError(error)
+    }
+}
+
+function propEval(object = null, propertyName) {
+    if (object === null) {
+        object = self
+    } 
+    try {
+        return resultSuccess(object[propertyName])
+    } catch (error) {
+        error.description = error.toString()
+        return resultError(error)
+    } 
+}
+
+
+//#region results
+
+function result(obj = null, error = '') {
+    return { result: obj, error: error };
+}
+
+function resultError(e) {
+    return result(null, e);
+}
+
+function resultSuccess(o) {
+    return result(o, null);
+}
+
+//#endregion
