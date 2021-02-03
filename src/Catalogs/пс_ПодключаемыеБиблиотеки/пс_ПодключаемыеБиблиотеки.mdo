@@ -30,6 +30,8 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.пс_ПодключаемыеБиблиотеки.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.пс_ПодключаемыеБиблиотеки.Form.ФормаГруппы</defaultFolderForm>
   <tabularSections uuid="b765164c-3c43-4616-b1f0-d1c31ef5b2d9">
     <producedTypes>
       <objectType typeId="9d19ddf0-13e1-4849-9d24-ad5c85b9ba8b" valueTypeId="4a1e292f-2a1e-4177-bc16-22f6a502cfab"/>
@@ -92,4 +94,22 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <forms uuid="d9e8638a-ce8d-427c-8c5f-9c9ac513804f">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8d3f91dc-c8e6-4cd9-9107-97b200a0ae25">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

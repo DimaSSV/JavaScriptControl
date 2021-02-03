@@ -7,10 +7,8 @@
   </synonym>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:ConfigurationExtension">
-    <defaultRunMode>Checked</defaultRunMode>
     <usePurposes>Checked</usePurposes>
     <managedApplicationModule>Extended</managedApplicationModule>
-    <defaultLanguage>Checked</defaultLanguage>
     <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
   </extension>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="53bc0804-96d3-4929-8a47-87035c91d4eb"/>
@@ -24,7 +22,6 @@
   <namePrefix>пс_</namePrefix>
   <configurationExtensionCompatibilityMode>8.3.13</configurationExtensionCompatibilityMode>
   <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
-  <defaultRunMode>OrdinaryApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <defaultLanguage>Language.Русский</defaultLanguage>
