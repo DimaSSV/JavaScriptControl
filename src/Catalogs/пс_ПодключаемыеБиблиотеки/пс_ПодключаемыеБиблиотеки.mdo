@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c829e72b-7508-49d6-bfbe-213f5d370595">
+  <producedTypes>
+    <objectType typeId="66f6abc9-3509-46c2-9516-8568a4248e62" valueTypeId="881630e0-19b6-402a-9f05-91330223af2f"/>
+    <refType typeId="7a2284e5-b667-455b-8a62-7652cbd55a34" valueTypeId="951231c5-44fb-4892-8bce-94293c667ae1"/>
+    <selectionType typeId="7d891f3e-82f8-4889-beb1-710193186fe5" valueTypeId="fe71cf15-28b9-44cb-afe5-d84774c65b7b"/>
+    <listType typeId="6ce42199-0009-4fa7-bac5-d2c3f1e80870" valueTypeId="4697774d-f0cb-4915-8a89-b25263622bf8"/>
+    <managerType typeId="49ad0626-d5e3-4e94-848e-698c6476ab59" valueTypeId="f6f87d83-6a08-4bb1-9cf8-0da63bc76c0b"/>
+  </producedTypes>
+  <name>пс_ПодключаемыеБиблиотеки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подключаемые библиотеки (JS)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.пс_ПодключаемыеБиблиотеки.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.пс_ПодключаемыеБиблиотеки.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="b765164c-3c43-4616-b1f0-d1c31ef5b2d9">
+    <producedTypes>
+      <objectType typeId="9d19ddf0-13e1-4849-9d24-ad5c85b9ba8b" valueTypeId="4a1e292f-2a1e-4177-bc16-22f6a502cfab"/>
+      <rowType typeId="ae0953dd-0e6e-4eb3-b3d9-0be8b54c6023" valueTypeId="2f8f0751-a0f1-4477-83b1-ff75d86b159d"/>
+    </producedTypes>
+    <name>Файлы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файлы</value>
+    </synonym>
+    <attributes uuid="f02114ea-f03e-4d35-a315-ea211fb5ce9c">
+      <name>Путь</name>
+      <synonym>
+        <key>ru</key>
+        <value>Путь</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f17bf06b-211b-40e8-8d25-33b017639eb2">
+      <name>ИмяФайла</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя файла</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f357fc4e-3ab2-4c8f-8ea4-0bbcdc49bdbc">
+      <name>Раширение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Раширение</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

@@ -7,9 +7,8 @@
   <name>пс_Тестирование</name>
   <synonym>
     <key>ru</key>
-    <value>Тестирование</value>
+    <value>Тестирование (JS)</value>
   </synonym>
-  <comment>(JS)</comment>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.пс_Тестирование.Form.Форма</defaultForm>
   <forms uuid="4b4c8497-d613-44b7-ae09-d939bf0aea85">
