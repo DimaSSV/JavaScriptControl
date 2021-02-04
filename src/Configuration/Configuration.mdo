@@ -26,7 +26,7 @@
   <scriptVariant>Russian</scriptVariant>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <compatibilityMode>8.3.18</compatibilityMode>
-  <languages uuid="72780691-baf7-4305-b6a4-7fd5bc5f2765" extendedConfigurationObject="6a860c52-2425-431a-b195-45677d33b526">
+  <languages uuid="72780691-baf7-4305-b6a4-7fd5bc5f2765" extendedConfigurationObject="cd3c1540-0f9a-4c3b-ae14-d4ed68689473">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:LanguageExtension">
