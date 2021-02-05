@@ -42,7 +42,186 @@
       <key>ru</key>
       <value>Файлы</value>
     </synonym>
-    <attributes uuid="f02114ea-f03e-4d35-a315-ea211fb5ce9c">
+    <attributes uuid="fd8d73c3-cd07-4767-a186-a6bfbb87b575">
+      <name>ВремяИзменения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время изменения</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fad798ec-8493-45a2-a9fe-9adc583d3864">
+      <name>Зашифрован</name>
+      <synonym>
+        <key>ru</key>
+        <value>Зашифрован</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c1444c32-1a9a-45ef-bb3d-7659401e537a">
+      <name>Имя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7912eab4-0d28-4e77-928d-b5e7f57d535a">
+      <name>ИмяБезРасширения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя без расширения</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="858aa096-a2ee-4ae3-a8e3-c3d41541abf5">
+      <name>ИсходноеИмя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Исходное имя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="305f3861-dce5-48d7-90bf-287172bcaa14">
+      <name>ИсходноеИмяБезРасширения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Исходное имя без расширения</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="323c05a2-a748-4526-948d-93e13cf830f6">
+      <name>ИсходноеПолноеИмя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Исходное полное имя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9b4a91b6-abf8-4ade-a890-28fd5ffd46fc">
+      <name>ИсходноеРасширение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Исходное расширение</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="400e45a6-5ba3-4111-b840-639d07e85846">
+      <name>ИсходныйПуть</name>
+      <synonym>
+        <key>ru</key>
+        <value>Исходный путь</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8b51a28c-f525-416c-8774-7afca7eb73f8">
+      <name>Невидимый</name>
+      <synonym>
+        <key>ru</key>
+        <value>Невидимый</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="af7729b7-bb38-463f-9f38-0eb5b297a105">
+      <name>ПолноеИмя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Полное имя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2e5b30b0-2f7d-427f-926b-0c728305be7b">
       <name>Путь</name>
       <synonym>
         <key>ru</key>
@@ -51,7 +230,7 @@
       <type>
         <types>String</types>
         <stringQualifiers>
-          <length>10</length>
+          <length>1024</length>
         </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
@@ -59,11 +238,47 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="f17bf06b-211b-40e8-8d25-33b017639eb2">
-      <name>ИмяФайла</name>
+    <attributes uuid="d613d4e6-9c0c-4dde-9657-f298ffe1876c">
+      <name>РазмерНесжатого</name>
       <synonym>
         <key>ru</key>
-        <value>Имя файла</value>
+        <value>Размер несжатого</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0a487c15-93a1-4e1b-8f9c-521ed6fb2506">
+      <name>РазмерСжатого</name>
+      <synonym>
+        <key>ru</key>
+        <value>Размер сжатого</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6f418255-210f-4097-870d-67fd67a4f110">
+      <name>Расширение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Расширение</value>
       </synonym>
       <type>
         <types>String</types>
@@ -76,17 +291,14 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="f357fc4e-3ab2-4c8f-8ea4-0bbcdc49bdbc">
-      <name>Раширение</name>
+    <attributes uuid="c2d60a5e-f616-470c-bb10-50e76596d71e">
+      <name>ТолькоЧтение</name>
       <synonym>
         <key>ru</key>
-        <value>Раширение</value>
+        <value>Только чтение</value>
       </synonym>
       <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>10</length>
-        </stringQualifiers>
+        <types>Boolean</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
