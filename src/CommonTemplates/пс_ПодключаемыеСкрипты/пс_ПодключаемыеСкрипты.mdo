@@ -3,7 +3,7 @@
   <name>пс_ПодключаемыеСкрипты</name>
   <synonym>
     <key>ru</key>
-    <value>Подключаемые скрипты</value>
+    <value>Подключаемые скрипты (JS)</value>
   </synonym>
   <comment>(JS)</comment>
   <templateType>TextDocument</templateType>
