@@ -41,6 +41,5 @@
   <commonModules>CommonModule.пс_Скрипты</commonModules>
   <commonModules>CommonModule.пс_СкриптыВызовСервера</commonModules>
   <commonModules>CommonModule.пс_СкриптыКлиент</commonModules>
-  <enums>Enum.пс_СпособыПодключения</enums>
   <dataProcessors>DataProcessor.пс_Тестирование</dataProcessors>
 </mdclass:Configuration>
