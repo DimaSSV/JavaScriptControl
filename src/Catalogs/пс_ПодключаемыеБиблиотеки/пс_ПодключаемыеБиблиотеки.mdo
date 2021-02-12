@@ -29,6 +29,16 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.пс_ПодключаемыеБиблиотеки.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="e67e5814-a57b-45ad-a81f-9a015d0a86ce">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <commands uuid="c93d93b0-3b41-4fdc-bd4d-55ba855bcceb">
     <name>Файлы</name>
     <synonym>
