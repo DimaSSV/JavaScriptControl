@@ -36,6 +36,8 @@
   </languages>
   <subsystems>Subsystem.пс_Скрипты</subsystems>
   <commonPictures>CommonPicture.пс_РазделСкрипты</commonPictures>
+  <roles>Role.пс_АдминистрированиеПодключаемыхБиблиотек</roles>
+  <roles>Role.пс_Тестирование</roles>
   <commonTemplates>CommonTemplate.пс_ПодключаемыеСкрипты</commonTemplates>
   <commonModules>CommonModule.пс_СкриптыСерверПовтИсп</commonModules>
   <commonModules>CommonModule.пс_Скрипты</commonModules>
