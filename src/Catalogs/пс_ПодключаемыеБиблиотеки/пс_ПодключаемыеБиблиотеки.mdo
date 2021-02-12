@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6180b30-a0b4-4e54-8747-b2bdf69d427e">
+  <producedTypes>
+    <objectType typeId="480a0f32-82c5-4be6-928e-dadc61d9b34b" valueTypeId="c3281883-563d-4204-81dc-b298d0b6d803"/>
+    <refType typeId="561d25ce-6023-4d92-b181-f94deee2ba1a" valueTypeId="b084159d-299d-497f-9064-3a8ea6c2de6f"/>
+    <selectionType typeId="4bd74eb2-7a6e-4d7a-8e0c-2c04df4851a2" valueTypeId="e980833b-f4a3-4d26-b55c-df2acfca457f"/>
+    <listType typeId="5bbcd471-fb25-4ef1-8280-67b4b7c78fd1" valueTypeId="93ca3a8e-af31-45da-96d3-ffe0eae6ca0a"/>
+    <managerType typeId="911aba14-eb7e-4625-aff0-a7aa81bbd6d0" valueTypeId="7c70020b-69a7-444f-bdd4-cb4e553a18d0"/>
+  </producedTypes>
+  <name>пс_ПодключаемыеБиблиотеки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подключаемые библиотеки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.пс_ПодключаемыеБиблиотеки.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.пс_ПодключаемыеБиблиотеки.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <commands uuid="c93d93b0-3b41-4fdc-bd4d-55ba855bcceb">
+    <name>Файлы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файлы</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.пс_ПодключаемыеБиблиотеки</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Catalog>
