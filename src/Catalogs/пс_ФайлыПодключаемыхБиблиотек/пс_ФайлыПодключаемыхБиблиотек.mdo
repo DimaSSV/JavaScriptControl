@@ -17,6 +17,22 @@
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Файл подключаемой библиотеки</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Файл подключаемой библиотеки</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Файлы подключаемых библиотек</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Файлы подключаемых библиотек</value>
+  </extendedListPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <owners>Catalog.пс_ПодключаемыеБиблиотеки</owners>
@@ -29,4 +45,14 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.пс_ФайлыПодключаемыхБиблиотек.Form.ФормаСписка</defaultListForm>
+  <forms uuid="1fc08bcc-1170-4205-b914-c1e5e2d75651">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
