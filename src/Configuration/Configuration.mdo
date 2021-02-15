@@ -20,7 +20,7 @@
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="5bc6973f-0557-4844-8e99-26cbec161da2"/>
   <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
   <namePrefix>пс_</namePrefix>
-  <configurationExtensionCompatibilityMode>8.3.11</configurationExtensionCompatibilityMode>
+  <configurationExtensionCompatibilityMode>8.3.12</configurationExtensionCompatibilityMode>
   <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
@@ -43,6 +43,7 @@
   <commonModules>CommonModule.пс_Скрипты</commonModules>
   <commonModules>CommonModule.пс_СкриптыВызовСервера</commonModules>
   <commonModules>CommonModule.пс_СкриптыКлиент</commonModules>
+  <commonModules>CommonModule.пс_РаботаСФайламиКлиент</commonModules>
   <catalogs>Catalog.пс_ПодключаемыеБиблиотеки</catalogs>
   <catalogs>Catalog.пс_ФайлыПодключаемыхБиблиотек</catalogs>
   <dataProcessors>DataProcessor.пс_Тестирование</dataProcessors>
