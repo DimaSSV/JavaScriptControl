@@ -45,6 +45,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.пс_ФайлыПодключаемыхБиблиотек.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.пс_ФайлыПодключаемыхБиблиотек.Form.ФормаСписка</defaultListForm>
   <attributes uuid="edb45120-a636-454a-9994-e15b11e2464f">
     <name>Хранилище</name>
@@ -61,10 +62,10 @@
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
   <attributes uuid="00987974-90e2-4f70-bfbb-8c501940de9c">
-    <name>ИсходноеИмяФайла</name>
+    <name>ИмяФайла</name>
     <synonym>
       <key>ru</key>
-      <value>Исходное имя файла</value>
+      <value>Имя</value>
     </synonym>
     <type>
       <types>String</types>
@@ -81,7 +82,7 @@
     <name>ПолноеИмяФайла</name>
     <synonym>
       <key>ru</key>
-      <value>Полное имя файла</value>
+      <value>Полное имя</value>
     </synonym>
     <type>
       <types>String</types>
@@ -99,6 +100,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="185c29b5-a9a0-471a-90c7-3b1f49134c4a">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
