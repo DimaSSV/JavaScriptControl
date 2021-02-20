@@ -47,5 +47,8 @@
   <commonForms>CommonForm.пс_ФормаПрогрессаЗагрузкиФайлов</commonForms>
   <catalogs>Catalog.пс_ПодключаемыеБиблиотеки</catalogs>
   <catalogs>Catalog.пс_ФайлыПодключаемыхБиблиотек</catalogs>
+  <catalogs>Catalog.пс_АлгоритмыДействий</catalogs>
+  <enums>Enum.пс_ВидыДействийАлгоритмов</enums>
   <dataProcessors>DataProcessor.пс_Тестирование</dataProcessors>
+  <informationRegisters>InformationRegister.пс_НастройкиХТМЛДокументов</informationRegisters>
 </mdclass:Configuration>

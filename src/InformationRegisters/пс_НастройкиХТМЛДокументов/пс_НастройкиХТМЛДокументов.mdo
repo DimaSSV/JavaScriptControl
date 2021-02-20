@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e040dd3a-2b88-4838-8071-1292e007f909">
+  <producedTypes>
+    <selectionType typeId="d474f0eb-303c-475a-8cb9-98045fe6db10" valueTypeId="60ed3cc7-97f8-4d45-8e24-9f6c1b40a75f"/>
+    <listType typeId="96979c16-fd53-4bd2-8f92-f62cd41b0218" valueTypeId="8f818e2c-3aad-4a2b-af22-7f86ba8d9848"/>
+    <managerType typeId="11f0e316-1114-4759-ad80-f3497cb6e463" valueTypeId="6fc22016-d0f5-4576-b608-868d3d08a94b"/>
+    <recordSetType typeId="b9e2b035-8a85-4b9e-91cc-c8ea5bb7cb40" valueTypeId="1030d46f-3ec3-4383-8782-90ef89a568b8"/>
+    <recordKeyType typeId="9b6372c4-dabd-4fa5-a97a-363332b876d5" valueTypeId="c4597187-534a-4474-8136-b98273822c70"/>
+    <recordType typeId="477f033f-b08e-4969-a0f9-03d54b940d11" valueTypeId="cb2d68c9-7b77-4c0b-84f7-34934ac63333"/>
+    <recordManagerType typeId="22ac9d64-a213-4a4d-a3f8-3033903b538d" valueTypeId="f4287062-bedc-43b8-8169-fad7e1fe8847"/>
+  </producedTypes>
+  <name>пс_НастройкиХТМЛДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки ХТМЛДокументов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="46b19ab4-0038-4b90-aee4-b61d98211220">
+    <name>Алгоритм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Алгоритм</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.пс_АлгоритмыДействий</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="4903ee54-baf1-459a-9eff-7ac952149768">
+    <name>ИмяФормы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя формы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d0b49796-9a2b-446d-bc2c-4ec80e41ea26">
+    <name>ИмяПоля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя поля</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4878671a-fd3d-42ed-8e55-185abcfe14fc">
+    <name>Порядок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

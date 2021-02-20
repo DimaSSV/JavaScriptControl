@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c18b332-5ebf-4f51-8569-174aeea8d11c">
+  <producedTypes>
+    <objectType typeId="a4a63c85-3bee-4d0e-9dac-d08f11c99a2f" valueTypeId="7abfe03a-06fa-4c4a-a820-128b76be2caf"/>
+    <refType typeId="cebf806f-cbb7-46c6-8370-122df0e88c4f" valueTypeId="c681b581-c136-4dd4-8807-6478aa6d5659"/>
+    <selectionType typeId="6ece79d5-a73b-4456-9260-ff738d1418b2" valueTypeId="dd656ec5-9b1a-4aca-89f9-7504a1026a45"/>
+    <listType typeId="27376ab5-61f2-477f-8446-d7042cbabd82" valueTypeId="c7284301-1a03-45fe-b262-2d9da46b447e"/>
+    <managerType typeId="ebadadad-bb49-4f24-8a05-f70b33d7f417" valueTypeId="ed1f51b3-eee8-4044-ac23-8eafecc13ace"/>
+  </producedTypes>
+  <name>пс_АлгоритмыДействий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Алгоритмы действий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.пс_АлгоритмыДействий.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.пс_АлгоритмыДействий.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.пс_АлгоритмыДействий.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="a57462ef-ab80-4db0-95ec-9e6c62cc430f">
+    <name>ТекстАлгоритма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст алгоритма</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4b359931-c92c-4b78-a4a3-fd3bc36e38f5">
+    <name>ПараметрыАлгоритма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры алгоритма</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="76f080f0-b0c2-48b2-974f-b2d6f8e6c7ea">
+    <name>ВидДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид действия</value>
+    </synonym>
+    <type>
+      <types>EnumRef.пс_ВидыДействийАлгоритмов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f467f280-6a5e-46db-958f-3fd0bdd2b095">
+    <name>Файл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.пс_ФайлыПодключаемыхБиблиотек</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="233bae44-cbd3-4e60-9dd3-18773440d3b3">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

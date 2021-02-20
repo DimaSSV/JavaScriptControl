@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="005d0560-916a-4902-9a78-634df18b948d">
+  <producedTypes>
+    <refType typeId="abda27a2-c86f-4f5f-8753-d414c5ef4d00" valueTypeId="d7414a9a-4446-4123-bc8e-c3bde48f363d"/>
+    <listType typeId="41d1f0ef-3d15-4050-8b21-f7bf814d10e3" valueTypeId="bda7f864-5529-46e2-8f7d-2b827fff67bf"/>
+    <managerType typeId="8192594c-6b03-4981-aa04-7e348d966be8" valueTypeId="0643701e-4791-40c6-b3c7-1f343c5fe7c6"/>
+  </producedTypes>
+  <name>пс_ВидыДействийАлгоритмов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды действий алгоритмов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="379cfe9b-d1d9-40bd-8857-7a1d37a35645">
+    <name>ПодключениеФайлаСкрипта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подключение файла скрипта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="326bb59a-50dd-45a6-ad52-7e1dd5f09fd4">
+    <name>ПодключениеФайлаСтиля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подключение файла стиля</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6b35a1f4-375e-4005-854e-a88c328c5808">
+    <name>ПроизвольныйАлгоритм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Произвольный алгоритм</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
