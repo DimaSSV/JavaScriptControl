@@ -44,6 +44,7 @@
   <commonModules>CommonModule.пс_СкриптыВызовСервера</commonModules>
   <commonModules>CommonModule.пс_СкриптыКлиент</commonModules>
   <commonModules>CommonModule.пс_РаботаСФайламиКлиент</commonModules>
+  <commonForms>CommonForm.пс_ФормаПрогрессаЗагрузкиФайлов</commonForms>
   <catalogs>Catalog.пс_ПодключаемыеБиблиотеки</catalogs>
   <catalogs>Catalog.пс_ФайлыПодключаемыхБиблиотек</catalogs>
   <dataProcessors>DataProcessor.пс_Тестирование</dataProcessors>

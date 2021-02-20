@@ -87,4 +87,11 @@
 			<value>true</value>
 		</right>
 	</object>
+	<object>
+		<name>CommonForm.пс_ФормаПрогрессаЗагрузкиФайлов</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
 </Rights>
