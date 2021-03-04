@@ -36,8 +36,6 @@
   </languages>
   <subsystems>Subsystem.пс_Скрипты</subsystems>
   <commonPictures>CommonPicture.пс_РазделСкрипты</commonPictures>
-  <roles>Role.пс_АдминистрированиеПодключаемыхБиблиотек</roles>
-  <roles>Role.пс_Тестирование</roles>
   <commonTemplates>CommonTemplate.пс_ПодключаемыеСкрипты</commonTemplates>
   <commonModules>CommonModule.пс_СкриптыСерверПовтИсп</commonModules>
   <commonModules>CommonModule.пс_Скрипты</commonModules>
@@ -45,10 +43,6 @@
   <commonModules>CommonModule.пс_СкриптыКлиент</commonModules>
   <commonModules>CommonModule.пс_РаботаСФайламиКлиент</commonModules>
   <commonForms>CommonForm.пс_ФормаПрогрессаЗагрузкиФайлов</commonForms>
-  <catalogs>Catalog.пс_ПодключаемыеБиблиотеки</catalogs>
-  <catalogs>Catalog.пс_ФайлыПодключаемыхБиблиотек</catalogs>
-  <catalogs>Catalog.пс_АлгоритмыДействий</catalogs>
   <enums>Enum.пс_ВидыДействийАлгоритмов</enums>
   <dataProcessors>DataProcessor.пс_Тестирование</dataProcessors>
-  <informationRegisters>InformationRegister.пс_НастройкиХТМЛДокументов</informationRegisters>
 </mdclass:Configuration>
