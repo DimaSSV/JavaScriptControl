@@ -37,6 +37,7 @@
   <subsystems>Subsystem.пс_Скрипты</subsystems>
   <commonPictures>CommonPicture.пс_РазделСкрипты</commonPictures>
   <commonTemplates>CommonTemplate.пс_ПодключаемыеСкрипты</commonTemplates>
+  <commonTemplates>CommonTemplate.пс_AMD_loader_js</commonTemplates>
   <commonModules>CommonModule.пс_СкриптыСерверПовтИсп</commonModules>
   <commonModules>CommonModule.пс_Скрипты</commonModules>
   <commonModules>CommonModule.пс_СкриптыВызовСервера</commonModules>
@@ -44,4 +45,5 @@
   <commonModules>CommonModule.пс_РаботаСФайламиКлиент</commonModules>
   <commonForms>CommonForm.пс_ФормаПрогрессаЗагрузкиФайлов</commonForms>
   <dataProcessors>DataProcessor.пс_Тестирование</dataProcessors>
+  <dataProcessors>DataProcessor.пс_РедакторКода</dataProcessors>
 </mdclass:Configuration>
