@@ -33,12 +33,4 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <templates uuid="edd0dacb-6b14-4d86-a713-765776147f38">
-    <name>monaco</name>
-    <synonym>
-      <key>ru</key>
-      <value>Monaco</value>
-    </synonym>
-    <templateType>BinaryData</templateType>
-  </templates>
 </mdclass:DataProcessor>
