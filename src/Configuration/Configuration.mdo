@@ -43,6 +43,5 @@
   <commonModules>CommonModule.пс_СкриптыКлиент</commonModules>
   <commonModules>CommonModule.пс_РаботаСФайламиКлиент</commonModules>
   <commonForms>CommonForm.пс_ФормаПрогрессаЗагрузкиФайлов</commonForms>
-  <enums>Enum.пс_ВидыДействийАлгоритмов</enums>
   <dataProcessors>DataProcessor.пс_Тестирование</dataProcessors>
 </mdclass:Configuration>
