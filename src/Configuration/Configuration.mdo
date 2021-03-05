@@ -46,6 +46,7 @@
   <commonModules>CommonModule.пс_РаботаСФайламиКлиент</commonModules>
   <commonModules>CommonModule.пс_ПодключениеБиблиотекКлиент</commonModules>
   <commonModules>CommonModule.пс_ПодключениеБиблиотекВызовСервера</commonModules>
+  <commonModules>CommonModule.пс_ПодключениеБиблиотекКлиентСлужебный</commonModules>
   <commonForms>CommonForm.пс_ФормаПрогрессаЗагрузкиФайлов</commonForms>
   <dataProcessors>DataProcessor.пс_Тестирование</dataProcessors>
   <dataProcessors>DataProcessor.пс_РедакторКода</dataProcessors>
