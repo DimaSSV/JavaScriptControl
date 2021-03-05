@@ -1,3 +1,4 @@
+
 'use strict';
 
 
@@ -242,6 +243,10 @@ function propEval(object = null, propertyName) {
         error.description = error.toString()
         return resultError(error)
     } 
+}
+
+function getFullHTML() {
+    return document.getElementsByTagName("HTML")[0].innerHTML
 }
 
 
