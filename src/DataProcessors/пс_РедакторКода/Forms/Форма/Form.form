@@ -1,10 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormField">
+    <name>ТекущийЯзык</name>
+    <id>6</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ТекущийЯзык</segments>
+    </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>ТекущийЯзыкПриИзменении</name>
+    </handlers>
+    <extendedTooltip>
+      <name>ТекущийЯзыкРасширеннаяПодсказка</name>
+      <id>8</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ТекущийЯзыкКонтекстноеМеню</name>
+      <id>7</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>InputField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:InputFieldExtInfo">
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <wrap>true</wrap>
+      <listChoiceMode>true</listChoiceMode>
+      <chooseType>true</chooseType>
+      <typeDomainEnabled>true</typeDomainEnabled>
+      <textEdit>true</textEdit>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormField">
     <name>ХТМЛ</name>
     <id>1</id>
     <visible>true</visible>
-    <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
@@ -35,7 +89,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <autoFill>true</autoFill>
     </contextMenu>
     <type>HTMLDocumentField</type>
     <editMode>Enter</editMode>
@@ -66,6 +119,10 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <handlers>
+    <event>OnOpen</event>
+    <name>ПриОткрытии</name>
+  </handlers>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -87,6 +144,24 @@
       <common>true</common>
     </edit>
     <main>true</main>
+  </attributes>
+  <attributes>
+    <name>ТекущийЯзык</name>
+    <title>
+      <key>ru</key>
+      <value>Текущий язык</value>
+    </title>
+    <id>2</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
   </attributes>
   <commandInterface>
     <navigationPanel/>
