@@ -38,7 +38,7 @@
   <commonPictures>CommonPicture.пс_РазделСкрипты</commonPictures>
   <commonTemplates>CommonTemplate.пс_ПодключаемыеСкрипты</commonTemplates>
   <commonTemplates>CommonTemplate.пс_AMD_loader_js</commonTemplates>
-  <commonTemplates>CommonTemplate.monaco</commonTemplates>
+  <commonTemplates>CommonTemplate.пс_monaco</commonTemplates>
   <commonModules>CommonModule.пс_СкриптыСерверПовтИсп</commonModules>
   <commonModules>CommonModule.пс_Скрипты</commonModules>
   <commonModules>CommonModule.пс_СкриптыВызовСервера</commonModules>
