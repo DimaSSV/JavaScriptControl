@@ -37,7 +37,6 @@
   <subsystems>Subsystem.пс_Скрипты</subsystems>
   <commonPictures>CommonPicture.пс_РазделСкрипты</commonPictures>
   <commonTemplates>CommonTemplate.пс_ПодключаемыеСкрипты</commonTemplates>
-  <commonTemplates>CommonTemplate.пс_AMD_loader_js</commonTemplates>
   <commonTemplates>CommonTemplate.пс_РедакторКода</commonTemplates>
   <commonModules>CommonModule.пс_СкриптыСерверПовтИсп</commonModules>
   <commonModules>CommonModule.пс_Скрипты</commonModules>
