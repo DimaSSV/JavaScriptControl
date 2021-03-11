@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02926572-3fe4-4cb8-8911-841f4fd4ba1a">
-  <name>пс_monaco</name>
-  <synonym>
-    <key>ru</key>
-    <value>monaco-editor-0.21.3</value>
-  </synonym>
-  <templateType>BinaryData</templateType>
-</mdclass:CommonTemplate>

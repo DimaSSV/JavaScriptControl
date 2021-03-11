@@ -38,15 +38,12 @@
   <commonPictures>CommonPicture.пс_РазделСкрипты</commonPictures>
   <commonTemplates>CommonTemplate.пс_ПодключаемыеСкрипты</commonTemplates>
   <commonTemplates>CommonTemplate.пс_AMD_loader_js</commonTemplates>
-  <commonTemplates>CommonTemplate.пс_monaco</commonTemplates>
+  <commonTemplates>CommonTemplate.пс_РедакторКода</commonTemplates>
   <commonModules>CommonModule.пс_СкриптыСерверПовтИсп</commonModules>
   <commonModules>CommonModule.пс_Скрипты</commonModules>
   <commonModules>CommonModule.пс_СкриптыВызовСервера</commonModules>
   <commonModules>CommonModule.пс_СкриптыКлиент</commonModules>
   <commonModules>CommonModule.пс_РаботаСФайламиКлиент</commonModules>
-  <commonModules>CommonModule.пс_ПодключениеБиблиотекКлиент</commonModules>
-  <commonModules>CommonModule.пс_ПодключениеБиблиотекВызовСервера</commonModules>
-  <commonModules>CommonModule.пс_ПодключениеБиблиотекКлиентСлужебный</commonModules>
   <commonForms>CommonForm.пс_ФормаПрогрессаЗагрузкиФайлов</commonForms>
   <dataProcessors>DataProcessor.пс_Тестирование</dataProcessors>
   <dataProcessors>DataProcessor.пс_РедакторКода</dataProcessors>
