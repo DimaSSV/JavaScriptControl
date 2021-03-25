@@ -33,51 +33,11 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <templates uuid="63710f0a-23f3-4150-a674-6a5d7fc82937">
-    <name>СкриптРедактора</name>
+  <templates uuid="da5e860c-c55e-43fc-9dc3-29cc2fe79034">
+    <name>Monaco1C</name>
     <synonym>
       <key>ru</key>
-      <value>Скрипт редактора</value>
-    </synonym>
-    <templateType>BinaryData</templateType>
-  </templates>
-  <templates uuid="a9301a4f-449c-4200-9934-e9cd9cf7d20f">
-    <name>СкриптCSSWorker</name>
-    <synonym>
-      <key>ru</key>
-      <value>Скрипт CSSWorker</value>
-    </synonym>
-    <templateType>BinaryData</templateType>
-  </templates>
-  <templates uuid="04d251f5-8401-464b-87b1-a64290dacf53">
-    <name>СкриптEditorWorker</name>
-    <synonym>
-      <key>ru</key>
-      <value>Скрипт editor worker</value>
-    </synonym>
-    <templateType>BinaryData</templateType>
-  </templates>
-  <templates uuid="89c973e0-9af2-400a-8ea0-71fcdfa730fd">
-    <name>СкриптHTMLWorker</name>
-    <synonym>
-      <key>ru</key>
-      <value>Скрипт HTMLWorker</value>
-    </synonym>
-    <templateType>BinaryData</templateType>
-  </templates>
-  <templates uuid="f9ff0599-385f-446a-8270-d0fe1e88cfc4">
-    <name>СкриптJSONWorker</name>
-    <synonym>
-      <key>ru</key>
-      <value>Скрипт JSONWorker</value>
-    </synonym>
-    <templateType>BinaryData</templateType>
-  </templates>
-  <templates uuid="34cd3ab2-79ce-4303-90ae-dfe0dd3b12eb">
-    <name>СкриптTsWorker</name>
-    <synonym>
-      <key>ru</key>
-      <value>Скрипт ts worker</value>
+      <value>Monaco1 C</value>
     </synonym>
     <templateType>BinaryData</templateType>
   </templates>
