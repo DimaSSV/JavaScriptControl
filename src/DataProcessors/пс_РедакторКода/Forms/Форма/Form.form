@@ -11,6 +11,10 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Язык</segments>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>ЯзыкПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>ЯзыкРасширеннаяПодсказка</name>
       <id>13</id>
