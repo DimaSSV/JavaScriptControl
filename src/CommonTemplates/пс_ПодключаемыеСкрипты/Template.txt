@@ -48,7 +48,7 @@
 })();
 
 // класс для управления событиями
-self.eventManager = {
+self.adapter = {
     addEventListener: function (target, type, listener, useCapture) {
         try {
             return resultSuccess(target.addEventListener(type, listener, useCapture));
@@ -72,7 +72,7 @@ self.eventManager = {
 }
 
 // класс для управления обработчиками ожидания
-self.timerManager = {
+self.adapter.timerManager = {
     timers : [],
     intervals : [],
     addTimer(callback, timeout, ...args) {
@@ -133,7 +133,7 @@ self.timerManager = {
 
 
 
-function Eval(paramToEval) {
+self.adapter.Eval = (paramToEval) => {
     try {
         return resultSuccess(eval(paramToEval))
     } catch (error) {
@@ -142,7 +142,7 @@ function Eval(paramToEval) {
     }
 }
 
-function giveName(name, object) {
+self.adapter.giveName = (name, object) => {
     try {
         self[name] = object
         return resultSuccess(object)
@@ -152,29 +152,29 @@ function giveName(name, object) {
     }
 }
 
-function newObject() {
+self.adapter.newObject = () => {
     return {}
 }
 
-function sendEvent(eventName, eventParams) {
+self.adapter.sendEvent = (eventName, eventParams) => {
     let newEvent = new MouseEvent('click')
     newEvent.eventData1C = { event: eventName, params: eventParams }
     return dispatchEvent(newEvent)
 }
 
-function log1C(message, eventName, level = 'info') {
+self.adapter.log1C = (message, eventName, level = 'info') => {
     return sendEvent('eventLog', { message: message, eventName: eventName, level: level })
 }
 
-function error1C(errorMessage) {
+self.adapter.error1C = (errorMessage) => {
     return sendEvent('trowError', errorMessage)
 }
 
-function message1C(message) {
+self.adapter.message1C = (message) => {
     return sendEvent('showMessage', message)
 }
 
-function Dir(object) {
+self.adapter.Dir = (object) => {
     try {
         stuff = [];
         for (const s in object) {
@@ -189,7 +189,7 @@ function Dir(object) {
 
 }
 
-function objToString(obj) {
+self.adapter.objToString = (obj) => {
     try {
         return resultSuccess(obj.toString())
     } catch (error) {
@@ -198,7 +198,7 @@ function objToString(obj) {
     }
 }
 
-function getContext(obj = null) {
+self.adapter.getContext = (obj = null) => {
 
     if (obj === null) {
         obj = self
@@ -208,9 +208,9 @@ function getContext(obj = null) {
         for (const key in obj) {
             if (key != 'webkitStorageInfo') {
                 try {
-                    response.push({ name: key, type: typeof obj[key], value: obj[key].toString() })
+                    response.push({ name: key, type: typeof obj[key], value: (!obj[key]) ? null : obj[key].toString() })
                 } catch (error) {
-                    //throw error		
+                    //return resultError(error)		
                 }
             }
         }
@@ -221,7 +221,7 @@ function getContext(obj = null) {
     }
 }
 
-function methodCall(object = null, methodName, ...params) {
+self.adapter.methodCall = (object = null, methodName, ...params) => {
     if (object === null) {
         object = self
     }
@@ -233,7 +233,7 @@ function methodCall(object = null, methodName, ...params) {
     }
 }
 
-function propEval(object = null, propertyName) {
+self.adapter.propEval = (object = null, propertyName) => {
     if (object === null) {
         object = self
     } 
@@ -245,22 +245,22 @@ function propEval(object = null, propertyName) {
     } 
 }
 
-function getFullHTML() {
+self.adapter.getFullHTML = () => {
     return document.getElementsByTagName("HTML")[0].innerHTML
 }
 
 
 //#region results
 
-function result(obj = null, error = '') {
+self.result = (obj = null, error = '') => {
     return { result: obj, error: error };
 }
 
-function resultError(e) {
+self.resultError = (e) => {
     return result(null, e);
 }
 
-function resultSuccess(o) {
+self.resultSuccess = (o) => {
     return result(o, null);
 }
 

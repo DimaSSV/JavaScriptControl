@@ -7,7 +7,7 @@
   <name>пс_РедакторКода</name>
   <synonym>
     <key>ru</key>
-    <value>Редактор кода</value>
+    <value>Редактор кода (JS)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.пс_РедакторКода.Form.Форма</defaultForm>
