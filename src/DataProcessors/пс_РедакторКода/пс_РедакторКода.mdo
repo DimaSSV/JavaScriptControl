@@ -33,11 +33,27 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <templates uuid="da5e860c-c55e-43fc-9dc3-29cc2fe79034">
-    <name>Monaco1C</name>
+  <templates uuid="0829dd36-cd5e-4886-9aa1-a86b5117d161">
+    <name>app</name>
     <synonym>
       <key>ru</key>
-      <value>Monaco1 C</value>
+      <value>App</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="7273bba9-2ffd-42cb-b78e-23a40688a310">
+    <name>index</name>
+    <synonym>
+      <key>ru</key>
+      <value>Index</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="b0d9a6ea-ccc9-45fc-9b87-af52cd6a2ae2">
+    <name>ts_worker</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ts worker</value>
     </synonym>
     <templateType>BinaryData</templateType>
   </templates>
