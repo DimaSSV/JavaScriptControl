@@ -133,7 +133,7 @@ self.adapter.timerManager = {
 
 
 
-self.adapter.Eval = (paramToEval) => {
+self.adapter.eval = (paramToEval) => {
     try {
         return resultSuccess(eval(paramToEval))
     } catch (error) {
