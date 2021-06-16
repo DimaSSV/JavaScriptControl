@@ -5,8 +5,14 @@
 	<meta charset='utf-8'>
 	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
 	<title>Page Title</title>
-	<meta name='viewport' content='width=device-width, initial-scale=1'>
 	<style>
+	
+div.monaco-editor div.editor-widget.find-widget {
+  transform: translateY(-9999px);
+}
+div.monaco-editor div.editor-widget.find-widget.visible  {
+  transform: translateY(0);
+}	
 		/* ---- BEGIN loading spinner ---- */
 		#loading .spinner {
 			margin: 100px auto;
