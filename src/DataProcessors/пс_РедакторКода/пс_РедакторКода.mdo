@@ -57,4 +57,36 @@
     </synonym>
     <templateType>BinaryData</templateType>
   </templates>
+  <templates uuid="01b46da5-6a97-43c5-9f63-6f6baf0e66c1">
+    <name>editor_worker</name>
+    <synonym>
+      <key>ru</key>
+      <value>Editor worker</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="94ff69e1-2919-4953-ab20-a462e2348fd4">
+    <name>html_worker</name>
+    <synonym>
+      <key>ru</key>
+      <value>Html worker</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="d07e55f9-48ef-4c1a-8b69-c0d4fcaadc7b">
+    <name>json_worker</name>
+    <synonym>
+      <key>ru</key>
+      <value>Json worker</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="3986273a-17df-4dd4-8adb-ed104696a45b">
+    <name>css_worker</name>
+    <synonym>
+      <key>ru</key>
+      <value>Css worker</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
 </mdclass:DataProcessor>
